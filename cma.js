@@ -11,6 +11,7 @@ module.exports = {
         edition: "community",
     },
     configuration: {
+        searchengine: "opensearch",
         elasticsearch: {
             env: {
                 ES_JAVA_OPTS: "-Xms4096m -Xmx4096m",
